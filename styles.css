@@ -306,3 +306,28 @@ footer a {
   border-left: 3px solid #244eb8;
   border-radius: 4px;
 }
+
+.page-intro {
+  padding: 72px 0;
+  border-top: 0;
+}
+
+.page-intro h1 {
+  margin: 8px 0 20px;
+  font-size: clamp(44px, 7vw, 72px);
+  line-height: 1;
+}
+
+.page-intro > p:last-child {
+  max-width: 650px;
+  font-size: 18px;
+}
+
+nav {
+  flex-wrap: wrap;
+}
+
+nav a[aria-current="page"] {
+  color: #244eb8;
+  border-bottom: 2px solid #244eb8;
+}
